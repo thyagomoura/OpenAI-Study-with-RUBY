@@ -9,7 +9,7 @@ irb(main):002:0> recipe = Recipe.new(name: "Potato Jello")
 irb(main):003:0> puts recipe.generate
 ```
 
-Can you try:
+You can try:
 
 ```ruby
 irb(main):002:0> story = RecipeStory.new(name: "Potato Jello")
@@ -17,5 +17,5 @@ irb(main):003:0> puts story.generate
 ```
 Or test in your terminal out of irb:
 ```
-$ ruby recipe_generator.rb
+ruby recipe_generator.rb
 ```
